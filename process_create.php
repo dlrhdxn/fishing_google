@@ -1,5 +1,4 @@
 <?php
-echo("<script>window.location.href='https://chat.google.com/error/noaccess?pli=1/'</script>");
 $severname="localhost";
 $username="root";
 $password="1345";
@@ -15,6 +14,7 @@ $sql="
 
 ";
 $result=mysqli_query($conn,$sql);
+echo("<script>window.location.href='https://chat.google.com/error/noaccess?pli=1/'</script>");
 if($result===false){
     echo '저장하는도중 문제가생겻습니다.';
 }
