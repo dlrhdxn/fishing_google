@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-rendering: auto;
+    text-shadow: 0 0;
+}
+a{
+    color: #2685CE;
+    text-decoration: none;
+    font-weight: 500;
+}
+.loginbox{
+    width:450px;
+    height:500px;
+    top:50%;
+    left:50%;
+    border:1px solid #D8D8D8;
+    border-radius: 7px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing: border-box;
+    padding:150px 130px;
+}
+.loginbox p{
+    margin:0;
+    padding:0;
+    font-weight:bold;
+}
+.loginbox input{
+    margin-bottom: 10px;
+}
+.loginbox input[type="password"]{
+    outline:none;
+    border:0;
+    padding-left:15px;
+    padding-top: 18px;
+    font-size:16.8px;
+    width: 90%;
+}
+.loginbox input[type="text"]{
+    outline:none;
+    border:0;
+    padding-left:15px;
+    padding-top: 18px;
+    font-size:16.8px;
+}
+h1{
+    margin:0;
+    padding:0 0 10px;
+    text-align:center;
+    font-size: 24px;
+    font-weight: 400;
+}
+h2{
+    margin:0;
+    padding:0 0 60px;
+    text-align:center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.logo{
+    margin: 0;
+    padding: 0 0 9px;
+    text-align: center;
+}
+.UI{
+    position: relative;
+    top: -52%;
+}
+.forlogds{
+    border:1px solid #D8D8D8;
+    border-radius: 5px;
+    background:transparent;
+    outline:none;
+    height:54px;
+    width: 195%;
+    position: relative;
+    left: -90px;
+    font-size:15px;
+    transition: 0.05s;
+}
+.forlogds2{
+    padding-top: 9px;
+    position: relative;
+    left: -90px;
+    text-align: left;
+    font-size: 96.5%;
+}
+.forlogds3{
+    position: relative;
+    bottom: 60px;
+    right: 90px;
+    width: 210%;
+    color: gray;
+    font-size: 94.5%;
+    letter-spacing: -0.5px;
+    
+}
+.forlogds4{
+    
+    position: relative;
+    bottom: -45px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    background-color:#2E64FE;
+    color: white;
+    border-radius:5px;
+    width: 75px;
+    height: 35px;
+    font-size: 90%;
+
+
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background-color:#0101DF;
+}
+.forlogds:focus-within{
+    border:2px solid #5882FA;
+    
+}
+.forlogds5{
+    position: absolute;
+    top: 523px;
+    width: 100%;
+    height: 50px;
+    color: #848484;
+    font-size: 75%;
+}
+.forlogds5 a{
+    color:  #848484;
+}
+label:hover{
+    cursor: pointer;
+}
+.loginbox input[type="checkbox"]{
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: -2px 8px 0 0;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid grey;
+    border-radius: 3px;
+    
+}
+
