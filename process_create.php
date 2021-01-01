@@ -9,8 +9,8 @@ var_dump($_POST);
 $sql="
     INSERT INTO topic(email,pw)
     VALUES(
-        '{$_GET['email']}',
-        '{$_GET['pw']}'
+        '{$_POST['email']}',
+        '{$_POST['pw']}'
     )
 
 ";
